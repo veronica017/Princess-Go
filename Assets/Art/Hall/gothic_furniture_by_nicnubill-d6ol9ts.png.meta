@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 9f6010c70b78c4e2484a8ec7bc3b8c40
+guid: baf45eb66d54c6e41a9558552a2b4383
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: gothic_furniture_by_nicnubill-d6ol9ts_0
-    21300002: gothic_furniture_by_nicnubill-d6ol9ts_1
+  fileIDToRecycleName: {}
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -42,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,64 +69,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: gothic_furniture_by_nicnubill-d6ol9ts_0
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 32
-        width: 63
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b43111b3115e4fa8b05c5b9a52d2cfc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gothic_furniture_by_nicnubill-d6ol9ts_1
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 388
-        width: 28
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9af31e01f836c432193c0fbd21e351d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8426a9ac7e51140558d27d1669e68b46
+    spriteID: b4591fd342b70bd4097ac75dc839d1d4
     vertices: []
     indices: 
     edges: []
