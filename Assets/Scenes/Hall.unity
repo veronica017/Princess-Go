@@ -4008,6 +4008,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fdd234722343324e9586a9de29feb9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcTalk: You have to find a key!
+  x: 300
+  y: 25
 --- !u!1 &804385032
 GameObject:
   m_ObjectHideFlags: 0
