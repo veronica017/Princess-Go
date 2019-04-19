@@ -1,0 +1,1149 @@
+fileFormatVersion: 2
+guid: 93a9ee6cdf663f8498bb5198631f2384
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: magic-flame-effect_0
+    21300002: magic-flame-effect_1
+    21300004: magic-flame-effect_2
+    21300006: magic-flame-effect_3
+    21300008: magic-flame-effect_4
+    21300010: magic-flame-effect_5
+    21300012: magic-flame-effect_6
+    21300014: magic-flame-effect_7
+    21300016: magic-flame-effect_8
+    21300018: magic-flame-effect_9
+    21300020: magic-flame-effect_10
+    21300022: magic-flame-effect_11
+    21300024: magic-flame-effect_12
+    21300026: magic-flame-effect_13
+    21300028: magic-flame-effect_14
+    21300030: magic-flame-effect_15
+    21300032: magic-flame-effect_16
+    21300034: magic-flame-effect_17
+    21300036: magic-flame-effect_18
+    21300038: magic-flame-effect_19
+    21300040: magic-flame-effect_20
+    21300042: magic-flame-effect_21
+    21300044: magic-flame-effect_22
+    21300046: magic-flame-effect_23
+    21300048: magic-flame-effect_24
+    21300050: magic-flame-effect_25
+    21300052: magic-flame-effect_26
+    21300054: magic-flame-effect_27
+    21300056: magic-flame-effect_28
+    21300058: magic-flame-effect_29
+    21300060: magic-flame-effect_30
+    21300062: magic-flame-effect_31
+    21300064: magic-flame-effect_32
+    21300066: magic-flame-effect_33
+    21300068: magic-flame-effect_34
+    21300070: magic-flame-effect_35
+    21300072: magic-flame-effect_36
+    21300074: magic-flame-effect_37
+    21300076: magic-flame-effect_38
+    21300078: magic-flame-effect_39
+    21300080: magic-flame-effect_40
+    21300082: magic-flame-effect_41
+    21300084: magic-flame-effect_42
+    21300086: magic-flame-effect_43
+    21300088: magic-flame-effect_44
+    21300090: magic-flame-effect_45
+    21300092: magic-flame-effect_46
+    21300094: magic-flame-effect_47
+    21300096: magic-flame-effect_48
+    21300098: magic-flame-effect_49
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magic-flame-effect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384f5b6c7d5cf484ea9d61ed4b51e833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ce57e43f3364e4b9f9fe6584501577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7680e8add64be4b408d0a07587555e77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c0fe4270d1ffa4aadac98febc5ecc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfad905a18ffa9b4799842bc7f04759d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77c2888fdb1a0a4cb2ec084effb053b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b932d5d51987a41a558db9a4742ad3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1800
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5d77c31c5608a48b5462d65f03cb01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c7d396ad170c46b2f8b2c67959656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c210a7f5423d4429e04245ddd9b1cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7ea2548eeecd0489de537a0d49706d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e3b4a9a1b63149a22919c034ad9a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_12
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd74633b2af3574cb7b2ada53b11ece
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_13
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54d92523b80bcb49b0e0d5e29f7f50a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45886833c98a7ac48a9c3cf00c2ff6d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_15
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1500
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c730cdb63d1e51a479463e7e529e4a9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c20e0aa199dcf48b1043c95da6dfb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6f72e7f369a0b469ee67b6bc59d3fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210b8d5bdf9c47f4eaa84f213935d748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b429f6a1124526a4d80210a7bdfbdff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5d61decd8bd684f9199367ff1d4b47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29891e701edb56642a8205be072dfea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_22
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d84461283f727a4f8e19d722d6c6f38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_23
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1200
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738dd79990b5e940970c413426c98ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a7b25c0a3362459227e4db4b6b7e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d369f67a3433d34d9726cf96d0b20f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fad0c5f9aed5446bc03cf4b9fc313d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca80e590e954db4e99aab9f3d573319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923ba4723075cbe499ba6c83a276a5e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3177716816053842a9cd70995275eb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_30
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91b90164d258d848bb6f244f9001426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_31
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 900
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8021c534c221c8540b6d957ac28c5cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17370c127e72a2e418ba02b8a1ed56dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725073c641d535e43acaff4460a7c9ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9bf28dce9b54542823fc360dd1c409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203c09cc84705ab44a918db2a1d1e1b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea57b51887e5e441b526cc87220faf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2655a420a9431849883f8fab8e340ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e2ce5b9f5e9944aab53d30b38dcb1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_39
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 600
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb259ba81622d3947bacda3b9f1d68af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c9aa179930db47895d73546d9c9e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac887306e5d9cb4e93dc305536faf52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ab2c6035adf3b409e6816fce7a509d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eded19658d8294644b926021608cbbb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1adbe95d770a3458e5b7f6d5e72b4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_45
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3342d603f5be2e04c86a11c03e2dd4b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_46
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8273d4e2e8c3414983baa3104d610c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_47
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 300
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09de6b54c27908f45aa0d4ac15d31dd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f420874da1394364eac3632a77c7233a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic-flame-effect_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bdfde3baba05a49aba464dfc66ed49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 694aaf6d2903fa14e855f801991e4aa9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2174,7 +2174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e806b67f9b949f04ba740f75c5f4f3d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goToTheScene: Chamber
+  goToTheScene: Underground
 --- !u!212 &611739270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3093,6 +3093,9 @@ GameObject:
   - component: {fileID: 852858390}
   - component: {fileID: 852858389}
   - component: {fileID: 852858388}
+  - component: {fileID: 852858397}
+  - component: {fileID: 852858396}
+  - component: {fileID: 852858395}
   m_Layer: 0
   m_Name: WizardTalk
   m_TagString: Untagged
@@ -3215,9 +3218,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 852858392}
+  - {fileID: 852858397}
   selectedCommands:
-  - {fileID: 852858388}
+  - {fileID: 852858395}
   variables: []
   description: 
   stepPause: 0
@@ -3438,6 +3441,67 @@ MonoBehaviour:
   commandList:
   - {fileID: 852858393}
   - {fileID: 852858391}
+--- !u!114 &852858395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852858381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 611739267}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &852858396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852858381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 852858397}
+  waitForFrames: 1
+--- !u!114 &852858397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852858381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 98
+    y: 422
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 11
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 852858396}
+  commandList:
+  - {fileID: 852858395}
 --- !u!1 &877238424
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wizard.unity
     guid: e7b54d39ea6384a47aaf80a064dffb82
+  - enabled: 1
+    path: Assets/Scenes/Underground.unity
+    guid: e2d8ad1a72c103947bd9ba3fdd147ecc
   m_configObjects: {}
