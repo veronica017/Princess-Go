@@ -13,7 +13,7 @@ public class DogController : MonoBehaviour
 
     void start()
     {
-        x = 0;
+        //x = 0;
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -24,13 +24,13 @@ public class DogController : MonoBehaviour
             {
                 Block target = talkChart.FindBlock("Dog");
                 talkChart.ExecuteBlock(target);
-                x++;
+                //x++;
             }
             else if (hasBone)
             {
                 Block target = talkChart.FindBlock("Disapear");
                 talkChart.ExecuteBlock(target);
-                x++;
+                //x++;
             }
 
         }
