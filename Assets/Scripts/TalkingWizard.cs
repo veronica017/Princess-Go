@@ -35,7 +35,7 @@ public class TalkingWizard : MonoBehaviour
             talkChart.ExecuteBlock(target);
             talkingToWizard++;
         }
-        else if (talkingToWizard>=1 && inventory.numberOfMarbles==3)
+        else if (talkingToWizard>=1 && !BallController.allFound)
         {
             Block target=talkChart.FindBlock("Busy");
             talkChart.ExecuteBlock(target);
