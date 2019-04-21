@@ -24,13 +24,13 @@ public class DogController : MonoBehaviour
             {
                 Block target = talkChart.FindBlock("Dog");
                 talkChart.ExecuteBlock(target);
-                x++;
+                //x++;
             }
             else if (hasBone)
             {
                 Block target = talkChart.FindBlock("Disapear");
                 talkChart.ExecuteBlock(target);
-                x++;
+                //x++;
             }
 
         }
