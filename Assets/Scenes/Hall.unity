@@ -3212,6 +3212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
+  index: 2
 --- !u!212 &584026825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5938,6 +5939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
+  index: 3
 --- !u!212 &1138886695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6465,6 +6467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
+  index: 1
 --- !u!58 &1255370842
 CircleCollider2D:
   m_ObjectHideFlags: 0

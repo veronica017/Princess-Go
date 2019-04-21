@@ -7,10 +7,18 @@ public class Pickup : MonoBehaviour
     private Inventory inventory;
     public GameObject itemButton;
     int healthPointsToAdd = 10;
+    public static bool[] hasPicked = new bool[4];
+    public int index;
 
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+       
+        if (hasPicked[index])
+        {
+            gameObject.SetActive(false);
+        }
+   
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -31,6 +39,7 @@ public class Pickup : MonoBehaviour
         //        }
         //    }
         //}
+        hasPicked[index] = true;
         HealthPointManager.AddHealthPoints(healthPointsToAdd);
         Destroy(gameObject);
 
