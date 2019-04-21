@@ -14,6 +14,7 @@ public class KeyUsing : MonoBehaviour
     // Update is called once per frame
     public void Use()
     {
+        Box.hasKey = true;
         Debug.Log("key is used");
         Destroy(gameObject);
     }

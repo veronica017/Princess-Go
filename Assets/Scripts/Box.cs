@@ -13,19 +13,19 @@ public class Box : MonoBehaviour
     
     private int touch = 0;
     //static int enterTimes=0;
-    private bool key = false;
-    void start(){
+    static public bool hasKey = false;
+    void Start(){
         
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (touch==0 )
+        if (!hasKey)
         {
             Block target=talkChart.FindBlock("AskForKey");
             talkChart.ExecuteBlock(target);
             touch++;
         }
-        else if (touch==1)
+        else 
         {
             Block target=talkChart.FindBlock("Congratulations");
             talkChart.ExecuteBlock(target);
