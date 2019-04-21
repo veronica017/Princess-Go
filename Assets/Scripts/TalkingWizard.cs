@@ -11,15 +11,18 @@ public class TalkingWizard : MonoBehaviour
     public string enterToDialogueBox;
     public Flowchart talkChart;
     public GameObject curtain;
-    public GameObject door;
-    public GameObject wizard;
-    private int talkingToWizard = 0;
-    //static int enterTimes=0;
+    private static int talkingToWizard = 0;
+    public static bool completed;
     private bool crystalBall = false;
-    void start(){
-        curtain.SetActive(true);
-        door.SetActive(false);
+
+    void Start(){
+        if (completed)
+        {
+            curtain.SetActive(false);
+            gameObject.SetActive(false);
+        }
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (talkingToWizard==0)
@@ -37,11 +40,7 @@ public class TalkingWizard : MonoBehaviour
         else{
             Block target=talkChart.FindBlock("Finish");
             talkChart.ExecuteBlock(target);
-            door.SetActive(true);
-           
-            //Destroy(curtain, 2);
-            //Destroy(gameObject, 2);
-
+            completed = true;
         }
     }
 

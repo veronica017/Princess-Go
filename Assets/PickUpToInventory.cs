@@ -12,10 +12,6 @@ public class PickUpToInventory : MonoBehaviour
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
-        //if (hasPicked)
-        //{
-        //    gameObject.SetActive(false);
-        //}
     }
 
     private void OnTriggerEnter2D(Collider2D other)

@@ -7,32 +7,41 @@ using Fungus;
 
 public class Box : MonoBehaviour
 {
-    
-   
+
+    public static bool here;
     public Flowchart talkChart;
-    
-    private int touch = 0;
-    //static int enterTimes=0;
     static public bool hasKey = false;
+    public static bool completed = false;
+
     void Start(){
-        
+        if (completed)
+        {
+            gameObject.SetActive(false);
+        }
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
+        here = true;
         if (!hasKey)
         {
             Block target=talkChart.FindBlock("AskForKey");
             talkChart.ExecuteBlock(target);
-            touch++;
         }
         else 
         {
             Block target=talkChart.FindBlock("Congratulations");
             talkChart.ExecuteBlock(target);
-            touch++;
-
+            completed = true;
         }
 
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            here = false;
+        }
+    }
 }
