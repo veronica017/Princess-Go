@@ -1196,7 +1196,13 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
   numberOfDestroyedObj: 0
+  numberOfMarbles: 0
 --- !u!61 &566416107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2066,6 +2072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
+  index: 0
 --- !u!212 &1651710291
 SpriteRenderer:
   m_ObjectHideFlags: 0

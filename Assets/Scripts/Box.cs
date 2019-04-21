@@ -12,11 +12,13 @@ public class Box : MonoBehaviour
     public Flowchart talkChart;
     static public bool hasKey = false;
     public static bool completed = false;
+    public GameObject key;
 
     void Start(){
         if (completed)
         {
             gameObject.SetActive(false);
+            key.SetActive(false);
         }
     }
 
@@ -33,6 +35,7 @@ public class Box : MonoBehaviour
             Block target=talkChart.FindBlock("Congratulations");
             talkChart.ExecuteBlock(target);
             completed = true;
+            gameObject.SetActive(false);
         }
 
     }

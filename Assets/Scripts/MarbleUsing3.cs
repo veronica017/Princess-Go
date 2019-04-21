@@ -16,8 +16,12 @@ public class MarbleUsing3 : MonoBehaviour
     // Update is called once per frame
     public void Use()
     {
-        Debug.Log("marble3 is used");
-        inventory.numberOfMarbles++;
-        Destroy(gameObject);
+        if (BallController.here)
+        {
+            BallController.ballFound[2] = true;
+            Debug.Log("marble3 is used");
+            inventory.numberOfMarbles++;
+            Destroy(gameObject);
+        }
     }
 }
