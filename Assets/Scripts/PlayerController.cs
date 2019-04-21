@@ -12,9 +12,11 @@ public class PlayerController : MonoBehaviour
     //private bool firstenterkitchen;
     //private bool firstentercorrider;
     private string lastSceneName;
+    //public static int talkingToWizard;
     // Start is called before the first frame update
     void Start()
     {
+        //talkingToWizard=0;
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
         /*firstenterkitchen=false;
