@@ -16,10 +16,9 @@ public class DogController : MonoBehaviour
         if (hasBone)
         {
             gameObject.SetActive(false);
-            print("false");
         }
-        print("start");
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         here = true;
