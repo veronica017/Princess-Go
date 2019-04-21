@@ -11,7 +11,7 @@ public class DogController : MonoBehaviour
     private int x;
     static public bool hasBone;
 
-    void start()
+    void Start()
     {
         //x = 0;
     }
