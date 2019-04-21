@@ -8,5 +8,6 @@ public class Inventory : MonoBehaviour
     public GameObject[] slots;
     public string[] destroyedObj;
     public int numberOfDestroyedObj = 0;
+    public int numberOfMarbles = 0;
 
 }
