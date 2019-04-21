@@ -203,7 +203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkChart: {fileID: 787254512}
-  bu: {fileID: 2286326205719488146, guid: 0f6a60b48236d4fc3b7ab2e9fc0fc522, type: 3}
 --- !u!58 &34238396
 CircleCollider2D:
   m_ObjectHideFlags: 0

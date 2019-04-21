@@ -27,10 +27,6 @@ public class PickUpToInventory : MonoBehaviour
                     inventory.numberOfDestroyedObj++;
                     Instantiate(itemButton, inventory.slots[i].transform, false); // spawn the button so that the player can interact with it
                     Destroy(gameObject);
-                    if (gameObject.name == "bone")
-                    {
-                        inventory.setExistBone();
-                    }
                     break;
                 }
             }
