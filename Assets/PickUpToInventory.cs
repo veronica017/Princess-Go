@@ -6,15 +6,21 @@ public class PickUpToInventory : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject itemButton;
+    private static bool hasPicked;
 
 
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        if (hasPicked)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        hasPicked = true;
         if (other.CompareTag("Player"))
         {
             // spawn the sun button at the first available inventory slot ! 
