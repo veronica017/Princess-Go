@@ -8,25 +8,28 @@ using Fungus;
 public class DogController: MonoBehaviour
 {
     public Flowchart talkChart;
-    private int x;
+    //private int boneFound;
+    private Inventory inventory;
    
-    void start(){
-        x=0;
+    void Start(){
+        //x=0;
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
 
         if (other.CompareTag("Player")){
-            if(x==0)
+            if(!inventory.existBone())
             {
                 Block target=talkChart.FindBlock("Dog");
                 talkChart.ExecuteBlock(target);
-                x++;
+                //x++;
             }
-            else if(x==1){
+            else{
                 Block target=talkChart.FindBlock("Disapear");
                 talkChart.ExecuteBlock(target);
-                x++;
+                //x++;
             }
             
         }
