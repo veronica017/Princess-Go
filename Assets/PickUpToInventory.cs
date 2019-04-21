@@ -29,7 +29,7 @@ public class PickUpToInventory : MonoBehaviour
                     Destroy(gameObject);
                     if (gameObject.name == "bone")
                     {
-                        inventory.setExistBone();
+                        inventory.setExistBone(true);
                     }
                     break;
                 }

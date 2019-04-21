@@ -15,9 +15,9 @@ public class Inventory : MonoBehaviour
         bone = false;
     }
 
-    public void setExistBone()
+    public void setExistBone(bool target)
     {
-        bone = true;
+        bone = target;
     }
 
     public bool existBone()
