@@ -13,9 +13,13 @@ public class TalkingWizard : MonoBehaviour
     public GameObject curtain;
     private static int talkingToWizard = 0;
     public static bool completed;
-    private bool crystalBall = false;
+    //private bool crystalBall = false;
+    //public static bool hasThreeMarbles;
+    private Inventory inventory;
 
     void Start(){
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+
         if (completed)
         {
             curtain.SetActive(false);
@@ -31,7 +35,7 @@ public class TalkingWizard : MonoBehaviour
             talkChart.ExecuteBlock(target);
             talkingToWizard++;
         }
-        else if (talkingToWizard>=1 && talkingToWizard<=2 && !crystalBall)
+        else if (talkingToWizard>=1 && inventory.numberOfMarbles==3)
         {
             Block target=talkChart.FindBlock("Busy");
             talkChart.ExecuteBlock(target);
