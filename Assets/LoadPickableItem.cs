@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadKey : MonoBehaviour
+public class LoadPickableItem : MonoBehaviour
 {
     private Inventory inventory;
     // Start is called before the first frame update

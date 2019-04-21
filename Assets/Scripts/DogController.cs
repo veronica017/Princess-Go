@@ -10,6 +10,7 @@ public class DogController: MonoBehaviour
     public Flowchart talkChart;
     //private int boneFound;
     private Inventory inventory;
+    static public bool hasBone;
    
     void Start(){
         //x=0;
@@ -20,7 +21,7 @@ public class DogController: MonoBehaviour
     {
 
         if (other.CompareTag("Player")){
-            if(!inventory.existBone())
+            if(!hasBone)
             {
                 Block target=talkChart.FindBlock("Dog");
                 talkChart.ExecuteBlock(target);

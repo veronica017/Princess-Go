@@ -14,6 +14,7 @@ public class BoneUsing : MonoBehaviour
     // Update is called once per frame
     public void Use()
     {
+        DogController.hasBone = true;
         Debug.Log("bone is used");
         Destroy(gameObject);
     }
