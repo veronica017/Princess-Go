@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class HealthPointManager : MonoBehaviour
 {
     static public float healthPoint;
+     public Texture2D textureToDisplay;
     static public int initialHealthPoint = 60;
     public Slider healthBar;
     private const float coef = 0.4f;
@@ -48,7 +49,8 @@ public class HealthPointManager : MonoBehaviour
 
         if (gameEnd == 1)
         {
-            GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2, 500, 100), "Game Over!");
+            //GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2, 500, 100), "Game Over!");
+            GUI.Label(new Rect(10, 40, textureToDisplay.width, textureToDisplay.height), textureToDisplay);
             Time.timeScale = 0;
         }
     }

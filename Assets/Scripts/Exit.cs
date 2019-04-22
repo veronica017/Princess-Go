@@ -10,12 +10,15 @@ public class Exit : MonoBehaviour
 {
     public Flowchart talkChart;
     public static bool here;
+    public GameObject Win;
     public static bool keyFound;
     public GUISkin theSkin;
     public static bool gameEnd;
+     //public Texture2D textureToDisplay;
 
     void Start(){
-        
+         //GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2, textureToDisplay.width, textureToDisplay.height), textureToDisplay);
+        Win.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -50,7 +53,9 @@ public class Exit : MonoBehaviour
 
         if (gameEnd)
         {
-            GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2, 500, 100), "You win!");
+           // GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2, 500, 100), "You win!");
+            Win.SetActive(true);
+            // GUI.Label(new Rect(10, 40, textureToDisplay.width, textureToDisplay.height), textureToDisplay);
             Time.timeScale = 0;
         }
     }
