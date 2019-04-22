@@ -9,9 +9,11 @@ public class PlayerController : MonoBehaviour
     private bool playerMoving;
     private Vector2 lastMove;
     private Rigidbody2D myRigidbody;
+  
     //private bool firstenterkitchen;
     //private bool firstentercorrider;
     private string lastSceneName;
+   
     //public static int talkingToWizard;
     // Start is called before the first frame update
     void Start()
@@ -19,10 +21,13 @@ public class PlayerController : MonoBehaviour
         //talkingToWizard=0;
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        //isAttack=false;
+        
         /*firstenterkitchen=false;
         Scene currentScene = SceneManager.GetActiveScene ();
         lastSceneName="Hall";*/
     }
+
 
     // Update is called once per frame
     void Update()
@@ -78,5 +83,30 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("PlayerMoving", playerMoving);
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
+
+        
     }
+    /*public void Sprite()
+      {
+        spriteBlinkingTotalTimer += Time.deltaTime;
+        if(spriteBlinkingTotalTimer >= spriteBlinkingTotalDuration)
+        {
+              //startBlinking = false;
+             spriteBlinkingTotalTimer = 0.0f;
+             this.gameObject.GetComponent<SpriteRenderer> ().enabled = true;   // according to 
+                      //your sprite
+             return;
+          }
+     
+     spriteBlinkingTimer += Time.deltaTime;
+     if(spriteBlinkingTimer >= spriteBlinkingMiniDuration)
+     {
+         spriteBlinkingTimer = 0.0f;
+         if (this.gameObject.GetComponent<SpriteRenderer> ().enabled == true) {
+             this.gameObject.GetComponent<SpriteRenderer> ().enabled = false;  //make changes
+         } else {
+             this.gameObject.GetComponent<SpriteRenderer> ().enabled = true;   //make changes
+         }
+     }
+      }*/
 }

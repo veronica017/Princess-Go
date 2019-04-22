@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-guid: a7849fbed5c1c4fc8af2665ccbe9f35b
+guid: 24b8a1897366e204890e3a2cb37f489e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: obj_misk_atlas_0
-    21300002: obj_misk_atlas_1
-    21300004: obj_misk_atlas_2
-    21300006: obj_misk_atlas_3
-    21300008: obj_misk_atlas_4
-    21300010: obj_misk_atlas_5
-    21300012: obj_misk_atlas_6
-    21300014: obj_misk_atlas_7
+    21300000: Thebat_0
+    21300002: Thebat_1
+    21300004: Thebat_2
+    21300006: Thebat_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,153 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obj_misk_atlas_0
+      name: Thebat_0
       rect:
         serializedVersion: 2
-        x: 611
-        y: 867
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de7c3ca109c0142b1b8ee8195cfa5acc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_1
-      rect:
-        serializedVersion: 2
-        x: 895
-        y: 13
-        width: 33
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 753d78f6eafd32741b19d372e6cb9617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_2
-      rect:
-        serializedVersion: 2
-        x: 833
-        y: 320
-        width: 65
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04df78b694e0bb24d93af34bf9ab2908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_3
-      rect:
-        serializedVersion: 2
-        x: 764
-        y: 322
-        width: 68
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8764b1ea9f11074f9611e0f439a2a78
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_4
-      rect:
-        serializedVersion: 2
-        x: 961
-        y: 161
-        width: 63
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e870294e32456f4408a1938881b18adb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_5
-      rect:
-        serializedVersion: 2
-        x: 766
-        y: 99
-        width: 56
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8096aeaf778a40a49897abaed172061b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_6
-      rect:
-        serializedVersion: 2
-        x: 962
-        y: 96
-        width: 62
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01a7c7d0f21d05546a8c9b4b18ed8cc8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_7
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 481
-        width: 67
-        height: 56
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,7 +102,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 016bd31dce6464e419393dd2f7494703
+      spriteID: 0515aec02725f54419569d939eabddbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thebat_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb7a0aa97314804ca025eae51dd6bab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thebat_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9746e5f1a5bee4d99f0ebc2ef0929a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thebat_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b7fb87c3b523f49bdeeb7fcd784c2a
       vertices: []
       indices: 
       edges: []
@@ -254,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 656c8641c5d3a423d9b69f752e8fff68
+    spriteID: a77590de76c19cc499132558d4b78ee4
     vertices: []
     indices: 
     edges: []
