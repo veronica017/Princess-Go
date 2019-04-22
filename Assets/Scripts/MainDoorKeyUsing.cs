@@ -14,7 +14,11 @@ public class MainDoorKeyUsing : MonoBehaviour
     // Update is called once per frame
     public void Use()
     {
-        Debug.Log("main door key is used");
-        Destroy(gameObject);
+        if (Exit.here)
+        {
+            Exit.keyFound = true;
+            Debug.Log("main door key is used");
+            Destroy(gameObject);
+        }
     }
 }
