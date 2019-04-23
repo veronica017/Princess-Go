@@ -504,6 +504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 7998213482041330194, guid: bbca2cdc0e6594b0caf83977df70bf5f,
     type: 3}
+  pickUpAudio: {fileID: 8300000, guid: 7ea1c0b1289354bacbf7d9f450ced390, type: 3}
 --- !u!1 &141144208
 GameObject:
   m_ObjectHideFlags: 0

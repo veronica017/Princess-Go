@@ -224,6 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 4145477256695635924, guid: 2d54b722114b84c1d8d983401c3a10f2,
     type: 3}
+  pickUpAudio: {fileID: 8300000, guid: 7ea1c0b1289354bacbf7d9f450ced390, type: 3}
 --- !u!114 &73291670
 MonoBehaviour:
   m_ObjectHideFlags: 0

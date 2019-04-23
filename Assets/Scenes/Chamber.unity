@@ -553,6 +553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 3340456769506117201, guid: 42dd05c0585904267bbf662a92ff288d,
     type: 3}
+  pickUpAudio: {fileID: 8300000, guid: 7ea1c0b1289354bacbf7d9f450ced390, type: 3}
 --- !u!58 &208890612
 CircleCollider2D:
   m_ObjectHideFlags: 0

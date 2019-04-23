@@ -1672,6 +1672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 131757731605717086, guid: 0515abe6c003f4c4b829e17a6b90442a,
     type: 3}
+  pickUpAudio: {fileID: 8300000, guid: 7ea1c0b1289354bacbf7d9f450ced390, type: 3}
 --- !u!114 &475070620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4992,6 +4993,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 131757731605717073, guid: 0515abe6c003f4c4b829e17a6b90442a,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 131757731605717072, guid: 0515abe6c003f4c4b829e17a6b90442a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5007,11 +5013,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 131757731605717073, guid: 0515abe6c003f4c4b829e17a6b90442a,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0515abe6c003f4c4b829e17a6b90442a, type: 3}

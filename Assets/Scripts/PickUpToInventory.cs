@@ -6,7 +6,8 @@ public class PickUpToInventory : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject itemButton;
-   //private static bool hasPicked;
+    //private static bool hasPicked;
+    public AudioClip pickUpAudio;
 
 
     private void Start()
@@ -24,6 +25,7 @@ public class PickUpToInventory : MonoBehaviour
             {
                 if (inventory.isFull[i] == false)
                 { // check whether the slot is EMPTY
+                    AudioSource.PlayClipAtPoint(pickUpAudio, new Vector3(0, 0, 0));
                     inventory.isFull[i] = true; // makes sure that the slot is now considered FULL
                     inventory.destroyedObj[inventory.numberOfDestroyedObj] = gameObject.name;
                     inventory.numberOfDestroyedObj++;
