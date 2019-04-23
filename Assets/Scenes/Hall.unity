@@ -3213,6 +3213,7 @@ MonoBehaviour:
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
   index: 2
+  eatApple: {fileID: 8300000, guid: f6994bedadee447d1af84d9162abcac0, type: 3}
 --- !u!212 &584026825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5942,6 +5943,7 @@ MonoBehaviour:
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
   index: 3
+  eatApple: {fileID: 8300000, guid: f6994bedadee447d1af84d9162abcac0, type: 3}
 --- !u!212 &1138886695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6470,6 +6472,7 @@ MonoBehaviour:
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
   index: 1
+  eatApple: {fileID: 8300000, guid: f6994bedadee447d1af84d9162abcac0, type: 3}
 --- !u!58 &1255370842
 CircleCollider2D:
   m_ObjectHideFlags: 0

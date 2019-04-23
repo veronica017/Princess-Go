@@ -9,6 +9,7 @@ public class Pickup : MonoBehaviour
     int healthPointsToAdd = 10;
     public static bool[] hasPicked = new bool[4];
     public int index;
+    public AudioClip eatApple;
 
     private void Start()
     {
@@ -39,6 +40,7 @@ public class Pickup : MonoBehaviour
         //        }
         //    }
         //}
+        AudioSource.PlayClipAtPoint(eatApple, transform.position);
         hasPicked[index] = true;
         HealthPointManager.AddHealthPoints(healthPointsToAdd);
         Destroy(gameObject);

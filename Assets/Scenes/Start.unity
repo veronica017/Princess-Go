@@ -2300,6 +2300,7 @@ MonoBehaviour:
   itemButton: {fileID: 6349114308302262856, guid: 5ef37be157dd7470e99afb868fddc96b,
     type: 3}
   index: 0
+  eatApple: {fileID: 8300000, guid: f6994bedadee447d1af84d9162abcac0, type: 3}
 --- !u!212 &1651710291
 SpriteRenderer:
   m_ObjectHideFlags: 0
