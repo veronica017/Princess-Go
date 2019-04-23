@@ -40,7 +40,7 @@ public class Pickup : MonoBehaviour
         //        }
         //    }
         //}
-        AudioSource.PlayClipAtPoint(eatApple, transform.position);
+        AudioSource.PlayClipAtPoint(eatApple, new Vector3(0,0,0));
         hasPicked[index] = true;
         HealthPointManager.AddHealthPoints(healthPointsToAdd);
         Destroy(gameObject);
