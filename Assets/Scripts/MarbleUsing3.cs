@@ -6,6 +6,7 @@ public class MarbleUsing3 : MonoBehaviour
 {
     private Transform player;
     private Inventory inventory;
+    public AudioClip usingItemAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class MarbleUsing3 : MonoBehaviour
         if (BallController.here)
         {
             BallController.ballFound[2] = true;
+            AudioSource.PlayClipAtPoint(usingItemAudio, new Vector3(0, 0, 0));
             Debug.Log("marble3 is used");
             inventory.numberOfMarbles++;
             Destroy(gameObject);

@@ -5,6 +5,7 @@ using UnityEngine;
 public class KeyUsing : MonoBehaviour
 {
     private Transform player;
+    public AudioClip usingItemAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class KeyUsing : MonoBehaviour
         if (Box.here == true)
         {
             Box.hasKey = true;
+            AudioSource.PlayClipAtPoint(usingItemAudio, new Vector3(0, 0, 0));
             Debug.Log("key is used");
             Destroy(gameObject);
         }
