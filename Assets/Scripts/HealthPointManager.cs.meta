@@ -3,7 +3,10 @@ guid: 4e04e4a2eaa1f4bff9b305596b2144dc
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - textureToDisplay: {fileID: 2800000, guid: 060afda5123940c4784ad27c844b25cd, type: 3}
+  - healthBar: {instanceID: 0}
+  - theSkin: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
