@@ -29,6 +29,7 @@ public class HealthPointManager : MonoBehaviour
         {
             //GameObject.FindGameObjectWithTag("Player").SetActive(false);
             gameEnd = 1;
+            Time.timeScale = 0;
         }
         //text.text = "" + healthPoint;
         healthBar.value = healthPoint;
